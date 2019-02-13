@@ -49,19 +49,19 @@ https://graphql.cn/
   https://github.com/webonyx/graphql-php  研究这个项目
  https://github.com/webonyx/graphql-php/tree/master/examples/00-hello-world
  
- 1、git clone  	https://github.com/webonyx/graphql-php.git
- 2、cd graphql-php
- 3、composer install
- 4、运行 examples  
+1.git clone  	https://github.com/webonyx/graphql-php.git
+2.cd graphql-php
+3.composer install
+4.运行 examples  
  按照 graphql-php/examples/  每个例子里面 .md 文件提示。操作、运行例子
- 5、选择 00-hello-world 例子
+5.选择 00-hello-world 例子
  cd examples/00-hello-world
- 6、php -S localhost:8080 ./graphql.php
- 7、在打开一个命令行窗口
+6.php -S localhost:8080 ./graphql.php
+7.在打开一个命令行窗口
  curl http://localhost:8080 -d '{"query": "mutation { sum(x: 2, y: 2) }" }'
- 8、结果：
+8.结果：
  {"data":{"sum":4}}
- 9、OK
+9.OK
  
  
  
